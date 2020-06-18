@@ -1,0 +1,5 @@
+name: GunGunGun
+version: ${project.version}
+main: geogun.gungungun.GunGunGun
+api-version: 1.13
+authors: [ZahnEins]
