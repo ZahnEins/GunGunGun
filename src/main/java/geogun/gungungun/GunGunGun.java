@@ -53,7 +53,7 @@ public final class GunGunGun extends JavaPlugin implements Listener {
                 && player.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(ChatColor.RED + "GeoGun")){
                 //เก็บค่า location ของ player โดยเพิ่ม y มาอีก 1บล็อค คือให้มันสูงพอๆกับหน้าตัวละคร
                 Location location = player.getLocation().add(0f,1.1f,0f);
-                //ลูประยะทาง i <= 20 ตัวเลข 20 คือ ระยะทางที่ ตรวจจับ
+                //ลูประยะทาง i <= 100 ตัวเลข 100 คือ ระยะทางที่ ตรวจจับ
                 for(int i = 0; i <= 100 ; i++){
                     //เพิ่มระยะทางที่จะตรวจสอบ Direction คือมุมที่เราหันหน้าไป
                     location = location.add(location.getDirection().getX()
